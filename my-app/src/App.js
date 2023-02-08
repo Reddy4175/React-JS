@@ -1,9 +1,18 @@
+import React from 'react';
 
-function App(){
-    return <div>
-        <h2>herrr</h2>
-        <h2>herrr</h2>
-        <h1>Anil</h1>
+import Function from './component/Function';
+import Welcome from './component/welcome';
+const App =()=>{
+    return( <div className='App'>
+      <Function/>
+      <Welcome/>
     </div>
+)
 }
-export default App;
+
+
+
+
+
+
+export default App
