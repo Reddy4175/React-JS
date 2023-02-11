@@ -1,13 +1,15 @@
 import React from "react";
 //import CompB from "./CompB";
-import Compclass from "./Compclass";
-let CompA= () => {
-    let Product = "Dell";
-    let Price = 55000;
+
+let CompA= (props) => {
     return <div>
-        <h1>CompA</h1>
-        <hr />
-        <Compclass product={Product} price={Price}/>
+        <pre>{JSON.stringify(props)}</pre>
+        <h2>product{props.Product}</h2>
+        <h3>Quantity{props.Price}</h3>
+
+    
+        
+        
     </div>
 }
 export default CompA
