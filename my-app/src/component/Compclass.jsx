@@ -3,14 +3,15 @@ import React from 'react'
 import Compclass2 from './Compclass2'
  
 class Compclass extends React.Component{
-    Product = "Dell"
-     Price = 55000
-     qty = 2
+    Name = "Vamsi"
+     salary = 95000
+     Company = "ISRO"
+     dept = "Scientist"
     render(){
         return (<div>
     <h1>CompA</h1>
         <hr />
-         <Compclass2 product={this.Product} price={this.Price} Quantity={this.qty}/>
+         <Compclass2 name={this.Name} salary={this.salary} Company={this.Company} designation={this.dept}/>
         </div>)
     }
 }

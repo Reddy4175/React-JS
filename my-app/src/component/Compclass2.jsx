@@ -1,23 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 class Compclass2 extends React.Component{
 
 
     render(){
         return(
         <div>
-            <h4>Property 1:{this.props.Product}</h4>
-        <h4>Property 2:{this.props.Price}</h4>
-        </div>)
+            <h1>class component 2</h1>
+            <h4>Full Name:{this.props.name}</h4>
+        <h4> Salary:{this.props.salary}</h4>
+        <h4>Main Company:{this.props.Company}</h4>
+        <h4>Desigination:{this.props.designation}</h4>
+        </div>
+        )
     }
 }
-// export default Compclass2
-// class Compclass2 extends Component{
-//     render(){
-//         return(
-//             <div>
-//                 <h1>name:{this.props.name}</h1>
-//             </div>
-//         )
-//     }
-// }
-// export default Compclass2
+ export default Compclass2
