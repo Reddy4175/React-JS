@@ -8,13 +8,14 @@ import Compclass2 from './component/Compclass2'
 import Class from './component/Cls to Func/Class'
 // import Compclass2 from './component/Compclass2'
 import Component from './component/Func to class/Component'
+import Message from './component/state/Message'
 function App() {
   
   return (
     <div>
       <h1>App Component</h1>
       <hr/>
-     <Component/>
+     <Message/>
      
     </div>
   )
