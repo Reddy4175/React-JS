@@ -1,7 +1,7 @@
 import React from 'react'
 // import Function from './component/Function'
 // import Welcome from './component/welcome'
- import CompA from './component/CompA'
+ //import CompA from './component/CompA'
 // import Stack from './component/Stack'
 import Compclass from './component/Compclass'
 import Compclass2 from './component/Compclass2'

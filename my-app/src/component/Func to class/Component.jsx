@@ -6,9 +6,7 @@ let Component=()=> {
    return (
      <div>
          <h1>Component</h1>
- 
          <hr/>
-        
          <Component2 Name={name} Place={place}/>
      </div>
    )

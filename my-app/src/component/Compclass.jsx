@@ -11,6 +11,7 @@ class Compclass extends React.Component{
         return (<div>
     <h1>CompA</h1>
         <hr />
+        <hr />
          <Compclass2 name={this.Name} salary={this.salary} Company={this.Company} designation={this.dept}/>
         </div>)
     }

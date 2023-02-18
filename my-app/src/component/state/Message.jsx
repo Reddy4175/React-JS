@@ -5,14 +5,14 @@ import React, { Component } from 'react'
         super()
          this.state = {
             id:101,
-            name:"psa"
+            name:"PSA"
               
          }
     }
     changename(){
         this.setState({
             name:"prostack",
-            id:102
+            id:103
         })
     }
   render() {
